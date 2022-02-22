@@ -1,0 +1,73 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(45, 45, 119);
+    color:whitesmoke;
+    text-align: center;
+    padding:2rem; 
+    border: 5px solid white;  
+    border-radius: 15px;
+    text-shadow: 3px 3px 5px #000000;
+}
+.Fizz{
+    font-family:RubikMonoOne;
+    font-size: 150%;
+    text-shadow: 3px 3px 5px #000000;
+
+}
+.Buzz{
+    font-family: LobsterTwo;
+    font-size: 150%;
+    text-shadow: 3px 3px 5px #000000;
+}
+@font-face {
+    font-family:RubikMonoOne;
+    src: url(RubikMonoOne-Regular.ttf);
+  }
+@font-face {
+    font-family:LobsterTwo;
+    src: url(LobsterTwo-Regular.ttf);
+  }
+form{
+
+    text-align: center;
+    text-size-adjust: 200px;
+    padding-top: 5rem;
+}
+header{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.text-block{
+    background-color: rgb(45, 45, 119);
+    color:whitesmoke;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+    width: 50%;
+    border: 3px solid white;
+    padding: 10px;
+    word-wrap: break-word;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+    text-shadow: 3px 3px 5px #000000;
+    
+    
+
+}
+.inputbit{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:whitesmoke;
+    font-size: 150%;
+    font-weight: bold;
+    background-color: rgb(45, 45, 119);
+    border: 3px solid white;
+    padding: 10px;
+    text-shadow: 2px 2px 4px #000000;
+    border-radius: 15px;
+}
+
+
+   

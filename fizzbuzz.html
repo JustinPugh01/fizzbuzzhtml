@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylefizzbuzz.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FizzBuzz</title>
+</head>
+<script src="fizzbuzz.js"></script>
+
+<body class="background-image" style="background-image: url(https://media.istockphoto.com/photos/an-abstract-blue-pattern-with-numbers-picture-id178895760?k=20&m=178895760&s=612x612&w=0&h=ZmCw-PcHc9s8CcocHe3fpqVph8MGs6WziHQIOPnUk2g=);">
+    <header>
+        <h1> WELCOME TO <span class="Fizz">FIZZ</span> 
+            <span class="Buzz">BUZZ</span> CALCULATOR !! </h1>
+    </header>
+    <main>
+        <form onsubmit="event.preventDefault();input(this)">
+            <label class="inputbit" for="Number-input">Input Number:</label><br>
+            <input style="margin-top: 5%;" type="number" id="Number-input" name="Number"><br>
+            <input type="submit" value="Submit">
+        </form>
+        <div class="text-block" width="6rem">
+            <h1>Result</h1>
+            <p id="result"></p>
+        </div>
+    </main>
+
+</body>
+
+</html>
